@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: end;
+    color: rgb(71, 131, 184);
+    font-family:'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 200px;
+}
+body{
+    height:100vh;
+    background-color: #71dbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    outline: none;
+    box-shadow: 0 10px 10px rgba(0, 0,0, 0.8);
+}
+input{
+    width:85%;
+    height:40px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid black;
+}
